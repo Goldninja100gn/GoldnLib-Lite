@@ -1,0 +1,254 @@
+{
+  "mod_elements": [
+    {
+      "name": "CmdGMS",
+      "type": "command",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmd_gms",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/command/CmdGMSCommand.java"
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "CmdGMC",
+      "type": "command",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmd_gmc",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/command/CmdGMCCommand.java"
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "CmdGMA",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmd_gma",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/command/CmdGMACommand.java"
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "CmdGMSP",
+      "type": "command",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmd_gmsp",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/command/CmdGMSPCommand.java"
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "PcdGMS",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_gms",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdGMSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "PcdGMC",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_gmc",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdGMCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "PcdGMA",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_gma",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdGMAProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "PcdGMSP",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_gmsp",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdGMSPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Gamemode Commands",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "goldnlib_lite",
+    "modName": "GoldnLib Lite [Client-Only]",
+    "version": "1.0.0",
+    "description": "A client-only version of GoldnLib to be used with Vanilla",
+    "author": "Goldn, Goldninja100gn",
+    "websiteURL": "https://gldn.cc/GoldnLibLite",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Goldn (Goldninja100gn)",
+    "modElementsPackage": "dev.goldn.lib",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

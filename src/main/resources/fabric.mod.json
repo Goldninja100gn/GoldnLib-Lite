@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "goldnlib_lite",
+  "version": "1.0.0",
+  "name": "GoldnLib Lite [Client-Only]",
+  "description": "A client-only version of GoldnLib to be used with Vanilla",
+  "authors": [
+    "Goldn, Goldninja100gn"
+  ],
+  "contact": {
+    "homepage": "https://gldn.cc/GoldnLibLite",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.goldn.lib.GoldnlibLiteMod"
+    ],
+    "client": [
+      "dev.goldn.lib.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
