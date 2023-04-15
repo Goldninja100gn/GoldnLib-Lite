@@ -27,5 +27,23 @@
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  }
+  },
+  "breaks": {
+    "goldnlib": "*"
+  },
+  "custom": {
+    "modmenu": {
+        "links": {
+            "modmenu.discord": "https://goldn.dev/discord"
+        },
+        "badges": [ "library" ],
+        "parent": {
+            "name": "GoldnLib Lite",
+            "description": "A client-only version of GoldnLib to be used with Vanilla",
+            "icon": "assets/goldnlib_lite/icon.png",
+            "badges": [ "library" ]
+        },
+        "update_checker": false
+    }
+}
 }
