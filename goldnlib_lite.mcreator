@@ -215,6 +215,58 @@
         ]
       },
       "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "CmdHeal",
+      "type": "command",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmd_heal",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/command/CmdHealCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "PcdHeal",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_heal",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdHealProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -241,6 +293,7 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

@@ -6,6 +6,7 @@ package dev.goldn.lib.init;
 
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 
+import dev.goldn.lib.command.CmdHealCommand;
 import dev.goldn.lib.command.CmdGMSPCommand;
 import dev.goldn.lib.command.CmdGMSCommand;
 import dev.goldn.lib.command.CmdGMCCommand;
@@ -18,6 +19,7 @@ public class GoldnlibLiteModCommands {
 			CmdGMCCommand.register(dispatcher, commandBuildContext);
 			CmdGMACommand.register(dispatcher, commandBuildContext);
 			CmdGMSPCommand.register(dispatcher, commandBuildContext);
+			CmdHealCommand.register(dispatcher, commandBuildContext);
 		});
 	}
 }

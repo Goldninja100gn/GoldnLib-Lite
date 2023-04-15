@@ -12,6 +12,7 @@
     "sources": ""
   },
   "license": "MIT License",
+  "icon": "assets/goldnlib_lite/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [

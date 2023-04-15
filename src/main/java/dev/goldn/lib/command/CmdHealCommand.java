@@ -10,14 +10,14 @@ import net.minecraft.commands.CommandBuildContext;
 
 import java.util.HashMap;
 
-import dev.goldn.lib.procedures.PcdGMCProcedure;
+import dev.goldn.lib.procedures.PcdHealProcedure;
 
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.CommandDispatcher;
 
-public class CmdGMCCommand {
+public class CmdHealCommand {
 	public static void register(CommandDispatcher<CommandSourceStack> dispatcher, CommandBuildContext commandBuildContext) {
-		dispatcher.register(Commands.literal("gmc")
+		dispatcher.register(Commands.literal("heal")
 
 				.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
@@ -34,7 +34,7 @@ public class CmdGMCCommand {
 						index++;
 					}
 
-					PcdGMCProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).put("cmdparams", cmdparams).build());
+					PcdHealProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).put("cmdparams", cmdparams).build());
 					return 0;
 				})).executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
@@ -51,7 +51,7 @@ public class CmdGMCCommand {
 						index++;
 					}
 
-					PcdGMCProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).put("cmdparams", cmdparams).build());
+					PcdHealProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).put("cmdparams", cmdparams).build());
 					return 0;
 				}));
 	}

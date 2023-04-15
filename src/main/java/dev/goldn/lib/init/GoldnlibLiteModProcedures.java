@@ -4,6 +4,7 @@
  */
 package dev.goldn.lib.init;
 
+import dev.goldn.lib.procedures.PcdHealProcedure;
 import dev.goldn.lib.procedures.PcdGMSProcedure;
 import dev.goldn.lib.procedures.PcdGMSPProcedure;
 import dev.goldn.lib.procedures.PcdGMCProcedure;
@@ -16,5 +17,6 @@ public class GoldnlibLiteModProcedures {
 		new PcdGMSProcedure();
 		new PcdGMAProcedure();
 		new PcdGMSPProcedure();
+		new PcdHealProcedure();
 	}
 }
