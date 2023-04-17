@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "goldnlib_lite",
+  "version": "1.0.0",
+  "name": "GoldnLib Lite",
+  "description": "A client-only version of GoldnLib to be used with Vanilla",
+  "authors": [
+    "Goldn, Goldninja100gn"
+  ],
+  "contributors": [
+	"Goldn, Goldninja100gn",
+  ],
+  "contact": {
+    "homepage": "https://gldn.cc/GoldnLibLite",
+    "sources": "https://github.com/Goldninja100gn/GoldnLib-Lite",
+	"issues": "https://github.com/Goldninja100gn/GoldnLib-Lite/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/goldnlib_lite/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.goldn.lib.GoldnlibLiteMod"
+    ],
+    "client": [
+      "dev.goldn.lib.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "custom": {
+    "modmenu": {
+        "links": {
+            "modmenu.discord": "https://goldn.dev/discord"
+        }
+    }
+  }
+}
+╒================ Above this line is the copy-pasta ================╕
+|																	|
+|	Unfortunely MCreator doesn't allow for custom fabric.mod.json	|
+|																	|
+|	Which means stuff for ModMenu and other modified sections 		|
+|	won't stay synced when using MCreator. Plus if the file does	|
+|	get modified, it won't allow syncing with MCreator. 			|
+|																	|
+|	If you help with this mod, you are allowed to add yourself to	|
+|	the contributors section above. 								|
+|																	|
+|	When the mod gets compiled/exported to jar, this file can be	|
+|	manually updated using WinRAR. It allows us to open .jar 		|
+|	which means we can replace the code in the fabric.mod.json		|
+|	file with the code above. 										|
+|																	|
+╘===================================================================╛
