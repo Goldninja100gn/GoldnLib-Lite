@@ -2,19 +2,17 @@
   "schemaVersion": 1,
   "id": "goldnlib_lite",
   "version": "1.0.0",
-  "name": "GoldnLib Lite",
+  "name": "GoldnLib Lite [Client-Only]",
   "description": "A client-only version of GoldnLib to be used with Vanilla",
   "authors": [
     "Goldn, Goldninja100gn"
   ],
   "contact": {
     "homepage": "https://gldn.cc/GoldnLibLite",
-    "sources": "https://github.com/Goldninja100gn/GoldnLib-Lite",
-	"issues": "https://github.com/Goldninja100gn/GoldnLib-Lite/issues"
+    "sources": ""
   },
-  "license": "MIT License",
-  "icon": "assets/goldnlib_lite/icon.png",
-  "environment": "client",
+  "license": "MIT",
+  "environment": "*",
   "entrypoints": {
     "main": [
       "dev.goldn.lib.GoldnlibLiteMod"
@@ -28,12 +26,5 @@
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "custom": {
-    "modmenu": {
-        "links": {
-            "modmenu.discord": "https://goldn.dev/discord"
-        }
-    }
   }
 }

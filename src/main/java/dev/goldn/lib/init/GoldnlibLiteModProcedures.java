@@ -9,6 +9,7 @@ import dev.goldn.lib.procedures.PcdGMSProcedure;
 import dev.goldn.lib.procedures.PcdGMSPProcedure;
 import dev.goldn.lib.procedures.PcdGMCProcedure;
 import dev.goldn.lib.procedures.PcdGMAProcedure;
+import dev.goldn.lib.procedures.PcdFeedProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
 public class GoldnlibLiteModProcedures {
@@ -18,5 +19,6 @@ public class GoldnlibLiteModProcedures {
 		new PcdGMAProcedure();
 		new PcdGMSPProcedure();
 		new PcdHealProcedure();
+		new PcdFeedProcedure();
 	}
 }

@@ -227,7 +227,8 @@
         "files": [
           "src/main/java/dev/goldn/lib/command/CmdHealCommand.java"
         ]
-      }
+      },
+      "path": "~/Heal Command"
     },
     {
       "name": "PcdHeal",
@@ -266,7 +267,62 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Heal Command"
+    },
+    {
+      "name": "CmdFeed",
+      "type": "command",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmd_feed",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/command/CmdFeedCommand.java"
+        ]
+      },
+      "path": "~/Feed Command"
+    },
+    {
+      "name": "PcdFeed",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_feed",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdFeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Feed Command"
     }
   ],
   "variable_elements": [],
@@ -280,6 +336,14 @@
       {
         "name": "Gamemode Commands",
         "children": []
+      },
+      {
+        "name": "Heal Command",
+        "children": []
+      },
+      {
+        "name": "Feed Command",
+        "children": []
       }
     ]
   },
@@ -290,10 +354,9 @@
     "description": "A client-only version of GoldnLib to be used with Vanilla",
     "author": "Goldn, Goldninja100gn",
     "websiteURL": "https://gldn.cc/GoldnLibLite",
-    "license": "MIT License",
+    "license": "MIT",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

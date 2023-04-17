@@ -11,6 +11,7 @@ import dev.goldn.lib.command.CmdGMSPCommand;
 import dev.goldn.lib.command.CmdGMSCommand;
 import dev.goldn.lib.command.CmdGMCCommand;
 import dev.goldn.lib.command.CmdGMACommand;
+import dev.goldn.lib.command.CmdFeedCommand;
 
 public class GoldnlibLiteModCommands {
 	public static void load() {
@@ -20,6 +21,7 @@ public class GoldnlibLiteModCommands {
 			CmdGMACommand.register(dispatcher, commandBuildContext);
 			CmdGMSPCommand.register(dispatcher, commandBuildContext);
 			CmdHealCommand.register(dispatcher, commandBuildContext);
+			CmdFeedCommand.register(dispatcher, commandBuildContext);
 		});
 	}
 }
