@@ -73,10 +73,6 @@
             "type": "entity"
           },
           {
-            "name": "cmdparams",
-            "type": "map"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -111,10 +107,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "cmdparams",
-            "type": "map"
           },
           {
             "name": "x",
@@ -153,10 +145,6 @@
             "type": "entity"
           },
           {
-            "name": "cmdparams",
-            "type": "map"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -191,10 +179,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "cmdparams",
-            "type": "map"
           },
           {
             "name": "x",
@@ -246,8 +230,39 @@
             "type": "entity"
           },
           {
-            "name": "cmdparams",
-            "type": "map"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PcdHealOther",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_heal_other",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdHealOtherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
           },
           {
             "name": "x",
@@ -267,6 +282,150 @@
           }
         ]
       }
+    },
+    {
+      "name": "PcdGMSOther",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_gms_other",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdGMSOtherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "PcdGMCOther",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_gmc_other",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdGMCOtherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "PcdGMAOther",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_gma_other",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdGMAOtherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gamemode Commands"
+    },
+    {
+      "name": "PcdGMSPOther",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcd_gmsp_other",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/goldn/lib/procedures/PcdGMSPOtherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gamemode Commands"
     }
   ],
   "variable_elements": [],
@@ -293,15 +452,14 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "fabric-1.19.2",
+    "currentGenerator": "fabric-1.20.1",
     "credits": "Goldn (Goldninja100gn)",
     "modElementsPackage": "dev.goldn.lib",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300110610
+  "mcreatorVersion": 202300336712
 }

@@ -1,9 +1,9 @@
 {
-  "_fv": 39,
+  "_fv": 47,
   "_type": "command",
   "definition": {
     "commandName": "gmc",
     "permissionLevel": "No requirement",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"old_command\"><field name=\"procedure\">PcdGMC</field></block></next></block></xml>"
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"entity\"><field name=\"name\">username</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">PcdGMCOther</field></block></statement><next><block type=\"call_procedure\"><field name=\"procedure\">PcdGMC</field></block></next></block></next></block><block type=\"old_command\" x=\"423\" y=\"258\"><field name=\"procedure\">PcdGMC</field></block></xml>"
   }
 }

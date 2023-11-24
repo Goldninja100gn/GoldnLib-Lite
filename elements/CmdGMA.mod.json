@@ -1,9 +1,9 @@
 {
-  "_fv": 39,
+  "_fv": 47,
   "_type": "command",
   "definition": {
     "commandName": "gma",
     "permissionLevel": "No requirement",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"old_command\"><field name=\"procedure\">PcdGMA</field></block></next></block></xml>"
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"entity\"><field name=\"name\">username</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">PcdGMAOther</field></block></statement><next><block type=\"call_procedure\"><field name=\"procedure\">PcdGMA</field></block></next></block></next></block><block type=\"old_command\" x=\"402\" y=\"227\"><field name=\"procedure\">PcdGMA</field></block></xml>"
   }
 }

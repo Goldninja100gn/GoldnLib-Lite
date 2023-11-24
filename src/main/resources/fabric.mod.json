@@ -12,7 +12,6 @@
     "sources": ""
   },
   "license": "MIT License",
-  "icon": "assets/goldnlib_lite/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -23,27 +22,9 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.9",
+    "fabricloader": ">=0.14.21",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": "~1.20",
     "java": ">=17"
-  },
-  "breaks": {
-    "goldnlib": "*"
-  },
-  "custom": {
-    "modmenu": {
-        "links": {
-            "modmenu.discord": "https://goldn.dev/discord"
-        },
-        "badges": [ "library" ],
-        "parent": {
-            "name": "GoldnLib Lite",
-            "description": "A client-only version of GoldnLib to be used with Vanilla",
-            "icon": "assets/goldnlib_lite/icon.png",
-            "badges": [ "library" ]
-        },
-        "update_checker": false
-    }
-}
+  }
 }
