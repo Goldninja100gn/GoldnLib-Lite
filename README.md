@@ -10,16 +10,19 @@ This does result in many missing features that were loved in GoldnLib.
 Unlike GoldnLib, GoldnLib Lite is open-sourced and compatible with popular mod editor MCreator. 
 We welcome anyone to make PR to the mod to add in useful features that can work client-side-only. 
 
+If you contribute to this mod, you can add your username to [fabric.mod.json.txt](/fabric.mod.json.txt) file. 
+This file contains a copy-pasta for the mod when exported. At the bottom of the file explains how to use it. If you have questions, contact Goldn.
+
 ## What is Client-Only?
 This mod is designed to work with servers that don't have the mod installed. 
 This works by using commands to serve functionality. 
 Several long commands that you would normally have to execute features can be simply shorten to a single command or keybind. 
 
-Please note you still require the proper permission level. Currently that requires permission level 4 (Owner). 
-I don't have enough knowledge on server permissions to be able to get commands/keybinds' permissions to match with in-game permissions. 
-Example, if `minecraft.gamemode.creative` (allows a player to use `/gamemode creative`) is allowed for a non-level 4 player, 
-the mod can't recongize that and will still not allow the player to use `/gmc`. 
-I have an idea on how to fix that, but it makes the commands appear in the `/help` menu when they don't have permissions to use the command.
+All functionally still requires the proper permissions or [Permission Level](https://minecraft.fandom.com/wiki/Permission_level) 2 (by Default). 
++ The shortened gamemode commands require `minecraft.command.gamemode.{gamemode}` and/or `minecraft.command.gamemode`.
++ The heal and feed commands require `minecraft.command.effect`
+
+Even if a player doesn't have the right permission level, the commands added by this mod will still appear in the help menu.
 
 Some servers detect Fabric mods as cheats, this mod doesn't interact with the server outside of sending commands on your behalf, so it shouldn't be an issue.
 
